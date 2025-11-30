@@ -10,6 +10,9 @@ Guide complet de tous les fichiers du projet et leur utilité.
 | **QUICKSTART.md** | Guide de démarrage rapide | Pour l'installation initiale |
 | **CORRECTION_GUIDE.md** | Guide complet de correction orthographique | Pour comprendre en détail la correction |
 | **GUIDE_RAPIDE_CORRECTION.md** | Guide rapide de correction | Pour démarrer rapidement avec la correction |
+| **FONCTIONNEMENT_TECHNIQUE.md** | Explication détaillée du code | Pour comprendre comment ça marche |
+| **EXEMPLES_PRATIQUES.md** | Cas d'usage et exemples concrets | Pour apprendre par la pratique |
+| **GITHUB_SETUP.md** | Instructions pour pousser sur GitHub | Pour publier le projet |
 | **INDEX.md** | Ce fichier - index de tous les fichiers | Pour s'y retrouver dans le projet |
 
 ## 🚀 Scripts Principaux
