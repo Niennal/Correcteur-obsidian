@@ -115,7 +115,7 @@ Vous avez maintenant un **projet complet et professionnel** prêt à être parta
 2. Cliquez sur **"+"** → **"New repository"**
 3. Configuration:
    ```
-   Repository name: obsidian-multiagent
+   Repository name: Correcteur-obsidian
    Description: Système multi-agent pour gérer vos notes Obsidian avec CrewAI et Ollama
    Public ou Private: à votre choix
    ⚠️ NE PAS cocher "Initialize with README"
@@ -125,10 +125,10 @@ Vous avez maintenant un **projet complet et professionnel** prêt à être parta
 ### Étape 2: Connecter votre repo local
 
 ```bash
-cd /Users/tristanjacob/obsidian-multiagent
+cd /Users/tristanjacob/Correcteur-obsidian
 
 # Ajouter le remote (remplacez VOTRE-USERNAME)
-git remote add origin https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
+git remote add origin https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
 
 # Vérifier
 git remote -v
@@ -274,7 +274,7 @@ Vous avez demandé comment fonctionnent les scripts. Voici ce qui a été créé
 
 ```bash
 # Voir GITHUB_SETUP.md pour les détails
-git remote add origin https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
+git remote add origin https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
 git push -u origin main
 ```
 
@@ -358,7 +358,7 @@ Ces guides vous enseignent:
 
 1. ✅ Pousser sur GitHub
    ```bash
-   git remote add origin https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
+   git remote add origin https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
    git push -u origin main
    ```
 
@@ -453,7 +453,7 @@ Vous avez maintenant:
 **Prochaine étape:** Poussez sur GitHub! 🚀
 
 ```bash
-git remote add origin https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
+git remote add origin https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
 git push -u origin main
 ```
 

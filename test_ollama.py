@@ -97,7 +97,7 @@ def list_available_models():
 
 
 if __name__ == "__main__":
-    print("🤖 Test de connexion Ollama pour Obsidian Multi-Agent")
+    print("🤖 Test de connexion Ollama pour Correcteur-obsidian")
     print()
 
     # Lister les modèles disponibles

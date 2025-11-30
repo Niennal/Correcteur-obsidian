@@ -182,7 +182,7 @@ def main():
         sys.exit(1)
 
     print("=" * 70)
-    print("🤖 Obsidian Multi-Agent System")
+    print("🤖 Correcteur-obsidian System")
     print("=" * 70)
 
     try:

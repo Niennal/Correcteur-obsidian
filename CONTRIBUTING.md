@@ -1,6 +1,6 @@
 # Contribuer au projet
 
-Merci de votre intérêt pour contribuer à Obsidian Multi-Agent! 🎉
+Merci de votre intérêt pour contribuer au Correcteur Obsidian! 🎉
 
 ## Comment contribuer
 
@@ -78,7 +78,7 @@ docs(readme): mise à jour installation
 ## Structure du projet
 
 ```
-obsidian-multiagent/
+Correcteur-obsidian/
 ├── correct_spelling.py     # Correction orthographique
 ├── main_simple.py          # Interface simple
 ├── obsidian_tools.py       # API Obsidian

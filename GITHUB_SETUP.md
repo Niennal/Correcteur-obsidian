@@ -6,21 +6,21 @@
 2. Cliquez sur le bouton **"+"** en haut à droite
 3. Sélectionnez **"New repository"**
 4. Configurez:
-   - **Repository name**: `obsidian-multiagent` (ou un autre nom)
-   - **Description**: `Système multi-agent intelligent pour gérer et corriger vos notes Obsidian avec CrewAI et Ollama`
+   - **Repository name**: `Correcteur-obsidian`
+   - **Description**: `Correcteur orthographique intelligent pour vos notes Obsidian avec CrewAI et Ollama`
    - **Public** ou **Private** (à votre choix)
    - ⚠️ **NE cochez PAS** "Initialize with README" (on a déjà tout!)
 5. Cliquez sur **"Create repository"**
 
 ## Étape 2: Connecter votre repo local à GitHub
 
-GitHub va vous afficher une page avec des instructions. Copiez l'URL de votre repo (qui ressemble à `https://github.com/VOTRE-USERNAME/obsidian-multiagent.git`).
+GitHub va vous afficher une page avec des instructions. Copiez l'URL de votre repo (qui ressemble à `https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git`).
 
 Puis dans votre terminal:
 
 ```bash
 # Ajouter le remote
-git remote add origin https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
+git remote add origin https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
 
 # Vérifier que c'est bon
 git remote -v
@@ -28,8 +28,8 @@ git remote -v
 
 Vous devriez voir:
 ```
-origin  https://github.com/VOTRE-USERNAME/obsidian-multiagent.git (fetch)
-origin  https://github.com/VOTRE-USERNAME/obsidian-multiagent.git (push)
+origin  https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git (fetch)
+origin  https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git (push)
 ```
 
 ## Étape 3: Pousser le code
@@ -47,7 +47,7 @@ Si c'est la première fois, Git peut vous demander de vous authentifier:
 
 1. Allez sur GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
 2. Cliquez sur **"Generate new token"** → **"Generate new token (classic)"**
-3. Donnez-lui un nom: `obsidian-multiagent`
+3. Donnez-lui un nom: `Correcteur-obsidian`
 4. Cochez la case **"repo"** (full control of private repositories)
 5. Cliquez sur **"Generate token"**
 6. **COPIEZ LE TOKEN** (vous ne le reverrez jamais!)
@@ -55,7 +55,7 @@ Si c'est la première fois, Git peut vous demander de vous authentifier:
 
 ## Étape 4: Vérifier sur GitHub
 
-Allez sur `https://github.com/VOTRE-USERNAME/obsidian-multiagent` et vous devriez voir tous vos fichiers!
+Allez sur `https://github.com/VOTRE-USERNAME/Correcteur-obsidian` et vous devriez voir tous vos fichiers!
 
 ## Étape 5: Mettre à jour le README (optionnel)
 
@@ -66,7 +66,7 @@ Maintenant que vous connaissez votre URL GitHub, vous pouvez mettre à jour le l
 nano README.md
 
 # Chercher cette ligne:
-git clone https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
+git clone https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
 
 # Remplacer VOTRE-USERNAME par votre vrai username
 
@@ -136,8 +136,8 @@ Pour utiliser ce projet sur un autre ordinateur:
 
 ```bash
 # Cloner le repo
-git clone https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
-cd obsidian-multiagent
+git clone https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
+cd Correcteur-obsidian
 
 # Lancer le setup (qui fait tout!)
 ./setup.sh

@@ -686,11 +686,11 @@ if __name__ == "__main__":
 crontab -e
 
 # Ajouter cette ligne (tous les jours à 20h)
-0 20 * * * cd ~/obsidian-multiagent && source venv/bin/activate && python daily_correction.py >> logs/daily.log 2>&1
+0 20 * * * cd ~/Correcteur-obsidian && source venv/bin/activate && python daily_correction.py >> logs/daily.log 2>&1
 
 # Explication:
 # 0 20 * * *  → minute=0, heure=20, tous les jours
-# cd ~/obsidian-multiagent  → se placer dans le dossier
+# cd ~/Correcteur-obsidian  → se placer dans le dossier
 # source venv/bin/activate  → activer l'environnement
 # python daily_correction.py  → lancer le script
 # >> logs/daily.log  → rediriger stdout vers log
@@ -906,7 +906,7 @@ cleanup_old_backups("/vault", days=30)
 
 ```bash
 # Dans crontab (tous les lundis à 3h du matin)
-0 3 * * 1 cd ~/obsidian-multiagent && source venv/bin/activate && python cleanup_backups.py
+0 3 * * 1 cd ~/Correcteur-obsidian && source venv/bin/activate && python cleanup_backups.py
 ```
 
 ### Problème: Le correcteur plante sur de grosses notes

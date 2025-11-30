@@ -1,13 +1,13 @@
-# Obsidian Multi-Agent avec CrewAI et Ollama
+# Correcteur Obsidian - Correction orthographique automatique avec IA
 
-Système multi-agent intelligent pour gérer et modifier vos notes Obsidian en utilisant CrewAI et Ollama.
+Système de correction orthographique intelligent pour vos notes Obsidian, utilisant CrewAI et Ollama.
 
 ## 🚀 Installation rapide
 
 ```bash
 # Cloner le repo
-git clone https://github.com/VOTRE-USERNAME/obsidian-multiagent.git
-cd obsidian-multiagent
+git clone https://github.com/VOTRE-USERNAME/Correcteur-obsidian.git
+cd Correcteur-obsidian
 
 # Lancer le setup automatique
 ./setup.sh
@@ -346,10 +346,11 @@ pwd
 ## Structure du projet
 
 ```
-obsidian-multiagent/
-├── main.py                 # Script principal
-├── agents_config.py        # Configuration des agents
+Correcteur-obsidian/
+├── correct_spelling.py     # Correction orthographique
+├── main_simple.py          # Interface simple
 ├── obsidian_tools.py       # Outils pour Obsidian
+├── agents_config.py        # Configuration des agents
 ├── requirements.txt        # Dépendances Python
 ├── .env.example           # Exemple de configuration
 ├── .env                   # Configuration (à créer)

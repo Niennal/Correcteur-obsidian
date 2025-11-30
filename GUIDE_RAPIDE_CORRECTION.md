@@ -136,7 +136,7 @@ python correct_spelling.py
 Créez une routine chaque dimanche:
 
 ```bash
-cd ~/obsidian-multiagent
+cd ~/Correcteur-obsidian
 source venv/bin/activate
 python correct_spelling.py
 # Corrigez vos notes de la semaine

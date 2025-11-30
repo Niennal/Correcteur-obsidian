@@ -1,4 +1,4 @@
-# Index des Fichiers - Obsidian Multi-Agent
+# Index des Fichiers - Correcteur-obsidian
 
 Guide complet de tous les fichiers du projet et leur utilité.
 
@@ -147,7 +147,7 @@ python main_simple.py
 ## 📁 Structure du projet
 
 ```
-obsidian-multiagent/
+Correcteur-obsidian/
 ├── 📚 Documentation
 │   ├── README.md                      # Doc principale
 │   ├── QUICKSTART.md                  # Installation

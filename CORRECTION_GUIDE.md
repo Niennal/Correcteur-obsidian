@@ -283,7 +283,7 @@ corrector.correct_folder('Weekly', confirm=False)
 crontab -e
 
 # Ajouter (tous les dimanches à 20h)
-0 20 * * 0 cd /path/to/obsidian-multiagent && ./weekly_correction.sh
+0 20 * * 0 cd /path/to/Correcteur-obsidian && ./weekly_correction.sh
 ```
 
 ## Limites

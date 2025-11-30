@@ -31,7 +31,7 @@ def main():
         sys.exit(1)
 
     print("=" * 70)
-    print("🤖 Obsidian Multi-Agent System (Version Simplifiée)")
+    print("🤖 Correcteur-obsidian System (Version Simplifiée)")
     print("=" * 70)
     print(f"📂 Vault: {vault_path}")
     print(f"🧠 Modèle: {MODEL}")

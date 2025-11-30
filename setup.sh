@@ -1,13 +1,13 @@
 #!/bin/bash
 #
-# Script de setup automatique pour Obsidian Multi-Agent
+# Script de setup automatique pour Correcteur-obsidian
 # Usage: ./setup.sh
 #
 
 set -e  # Arrêter en cas d'erreur
 
 echo "=========================================================================="
-echo "🚀 Setup Obsidian Multi-Agent - CrewAI + Ollama"
+echo "🚀 Setup Correcteur-obsidian - CrewAI + Ollama"
 echo "=========================================================================="
 echo ""
 

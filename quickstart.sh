@@ -1,7 +1,7 @@
 #!/bin/bash
-# Script de démarrage rapide pour Obsidian Multi-Agent
+# Script de démarrage rapide pour Correcteur-obsidian
 
-echo "🚀 Obsidian Multi-Agent - Démarrage rapide"
+echo "🚀 Correcteur-obsidian - Démarrage rapide"
 echo "=========================================="
 
 # Vérifier si Ollama est installé

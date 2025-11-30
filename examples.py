@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Exemples d'utilisation programmatique du système Obsidian Multi-Agent
+Exemples d'utilisation programmatique du système Correcteur-obsidian
 """
 import os
 from dotenv import load_dotenv
@@ -169,7 +169,7 @@ def example_6_daily_note_template():
 
 
 if __name__ == "__main__":
-    print("🤖 Exemples d'utilisation Obsidian Multi-Agent")
+    print("🤖 Exemples d'utilisation Correcteur-obsidian")
     print("=" * 70)
     print("\nChoisissez un exemple à exécuter:")
     print("1. Recherche simple")
